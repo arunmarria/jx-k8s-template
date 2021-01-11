@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: afedfdd09ed6b4d2b90b52cf180f0e98-290295559.us-east-1.elb.amazonaws.com
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
