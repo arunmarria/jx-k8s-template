@@ -31,10 +31,12 @@ jxRequirements:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: arunmarria
+    repository: jx-k8s-template
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: afedfdd09ed6b4d2b90b52cf180f0e98-290295559.us-east-1.elb.amazonaws.com
     externalDNS: false
     kind: ingress
     namespaceSubDomain: -tekton-pipelines.
@@ -42,6 +44,8 @@ jxRequirements:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: arunmarria
   repository: bucketrepo
   secretStorage: local
   vault: {}
